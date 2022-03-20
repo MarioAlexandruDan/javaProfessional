@@ -36,5 +36,6 @@ public class ForkJoinFrameworkClass {
 		} catch (InterruptedException | ExecutionException e) {
 			e.printStackTrace();
 		}
+		pool.shutdown();
 	}
 }
